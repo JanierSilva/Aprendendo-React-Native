@@ -1,11 +1,7 @@
 import React from 'react';
-import { Image, Text, StyleSheet, Dimensions } from 'react-native-web';
-//import topo from '../../../assets/topo.png';
-import logoVendedor from './assets/logo.png';
-import Detalhes from './source/telas/Carrinho/Detalhes';
+import { Image, Text, StyleSheet, Dimensions, View } from 'react-native';
+import logoVendedor from '../../../assets/logo.png';
 
-
-const width = Dimensions.get("screen").width;
 
 export default function Detalhes() {
     return <>

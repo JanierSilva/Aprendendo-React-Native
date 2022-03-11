@@ -1,5 +1,5 @@
 import React from 'react';
-import { Image, Text, StyleSheet ,Dimensions } from 'react-native-web';
+import { Image, Text, StyleSheet ,Dimensions } from 'react-native';
 import topo from '../../../assets/topo.png';
 
 
@@ -8,10 +8,9 @@ const width = Dimensions.get("screen").width;
 export default function Topo (){
     return  <>
                 <Image style={styles.topo} source={topo}/>
-                <Text style= {styles.tituloCarrinho}>Carrinho</Text>;
+                <Text style= {styles.tituloCarrinho}>Carrinho</Text>
             </>
 }
-
 const styles = StyleSheet.create({
     topo:{
         width:"100%",
