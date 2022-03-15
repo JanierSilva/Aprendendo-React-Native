@@ -3,6 +3,7 @@ import { Image, Text, StyleSheet, Dimensions, View } from 'react-native';
 import logoVendedor from '../../../assets/logo.png';
 
 
+
 export default function Detalhes() {
     return <>
         <Text style={styles.detalhes}>Detalhes do Carrinho</Text>
@@ -23,6 +24,7 @@ const styles = StyleSheet.create({
         fontSize: 25,
         lineHeight: 35,
         textAlign: "center",
+        fontFamily: 'Montserrat_700Bold'
     },
     titulo: {
         color: "#ffa500",

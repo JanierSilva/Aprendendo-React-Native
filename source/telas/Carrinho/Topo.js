@@ -24,5 +24,6 @@ const styles = StyleSheet.create({
         fontSize: 20,
         fontWeight: "bold",
         lineHeight: 40,
+        fontFamily: 'Montserrat_700Bold'
       },
 })

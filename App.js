@@ -2,9 +2,18 @@ import { StatusBar, StyleSheet, Text, SafeAreaView, Image, Dimensions, View } fr
 import Topo from './source/telas/Carrinho/Topo';
 //import logoVendedor from './assets/logo.png';
 import Detalhes from './source/telas/Carrinho/Detalhes';
+import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
 
 
 export default function App() {
+  let [fontsLoaded] = useFonts({
+    Montserrat_400Regular,
+    Montserrat_700Bold
+  });
+
+  if (!fontsLoaded) {
+    return <View></View> ;
+  }
   return (
     <SafeAreaView style={styles.container}>
       <Topo/>
