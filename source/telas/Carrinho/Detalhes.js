@@ -1,19 +1,17 @@
 import React from 'react';
 import { Image, Text, StyleSheet, Dimensions, View } from 'react-native';
 import logoVendedor from '../../../assets/logo.png';
-
-
-
+import Texto from './components/texto';
 export default function Detalhes() {
     return <>
-        <Text style={styles.detalhes}>Detalhes do Carrinho</Text>
-        <Text style={styles.titulo}>Kit IoT</Text>
+        <Texto style={styles.detalhes}>Detalhes do Carrinho</Texto>
+        <Texto style={styles.titulo}>Kit IoT</Texto>
         <View style={styles.vendedor}>
             <Image style={styles.logoVendedor} source={logoVendedor} />
-            <Text style={styles.nomeVendedor}>Nuvem Cloud Shopping</Text>
+            <Texto style={styles.nomeVendedor}>Nuvem Cloud Shopping</Texto>
         </View>
-        <Text style={styles.desc}>Kit IoT que revoluciona a vida dos estudantes</Text>
-        <Text style={styles.preco}>R$ 99,00</Text>
+        <Texto style={styles.desc}>Kit IoT que revoluciona a vida dos estudantes</Texto>
+        <Texto style={styles.preco}>R$ 99,00</Texto>
     </>
 }
 
@@ -24,7 +22,7 @@ const styles = StyleSheet.create({
         fontSize: 25,
         lineHeight: 35,
         textAlign: "center",
-        fontFamily: 'Montserrat_700Bold'
+        
     },
     titulo: {
         color: "#ffa500",
