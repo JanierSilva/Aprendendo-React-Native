@@ -1,7 +1,8 @@
 import React from 'react';
 import { Image, Text, StyleSheet, Dimensions, View } from 'react-native';
 import logoVendedor from '../../../assets/logo.png';
-import Texto from './components/texto';
+import Texto from '../../components/Texto';
+
 export default function Detalhes() {
     return <>
         <Texto style={styles.detalhes}>Detalhes do Carrinho</Texto>
