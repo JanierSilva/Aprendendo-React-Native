@@ -3,12 +3,12 @@ import Topo from './source/telas/Carrinho/Topo';
 //import logoVendedor from './assets/logo.png';
 import Detalhes from './source/telas/Carrinho/Detalhes';
 import { useFonts, Montserrat_400Regular, Montserrat_700Bold } from '@expo-google-fonts/montserrat';
-
+import Mocks from './source/mocks/carrinho'
 
 export default function App() {
   let [fontsLoaded] = useFonts({
     Montserrat_400Regular,
-    Montserrat_700Bold
+    Montserrat_700Bold,
   });
 
   if (!fontsLoaded) {
@@ -16,8 +16,8 @@ export default function App() {
   }
   return (
     <SafeAreaView style={styles.container}>
-      <Topo/>
-      <Detalhes/> 
+      <Topo {...Mocks.topo} />
+      <Detalhes {...Mocks.detalhes}/> 
                  
       <StatusBar  />
     </SafeAreaView>

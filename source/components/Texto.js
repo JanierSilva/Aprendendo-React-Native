@@ -6,7 +6,7 @@ export default function Texto ({children, style}){
         if(style?.fontWeight ==='bold'){
             estilo = estilos.textoNegrito;
         }
-    return <Text style= {[style, estilos]}>{children}</Text>
+    return <Text style= {[style, estilo]}>{children}</Text>
 }
 
 const estilos = StyleSheet.create({
@@ -15,7 +15,7 @@ const estilos = StyleSheet.create({
         fontWeight:'normal',
     },
     textoNegrito: {
-        fontFamily:'Montserrat_700Regular',
+        fontFamily:'Montserrat_700Bold',
         fontWeight:'normal',
         
     }
