@@ -19,7 +19,7 @@ const carrinho = {
         preco:"R$ 101,00",
     },
     itens:{
-        titulo:"Itens do Carrinho",
+        titulo:"ITENS DO CARRINHO",
         lista:[
             {
                 nome:"Antena 2g/3g",
