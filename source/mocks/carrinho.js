@@ -4,6 +4,10 @@ import antena2g from '../../assets/Itens/antena2g3g.png';
 import antenaWifi from '../../assets/Itens/antenaWifi.png';
 import modem from '../../assets/Itens/modem.png';
 import node from '../../assets/Itens/nodeMcu.png';
+import fontBox from '../../assets/Fotos2/fonteBox.png';
+import placaMae from '../../assets/Fotos2/placaMae.png';
+import placaVideo from '../../assets/Fotos2/placaVideo.png';
+import processador from '../../assets/Fotos2/processador.png';
 
 const carrinho = {
     topo:{
@@ -37,9 +41,34 @@ const carrinho = {
                 nome:"Node MCU",
                 imagem: node,
             },
+        ],
+    
+    },
+    itens2:{
+        titulo2:"PEÇAS PARA PC",
+        lista:[
+            {
+                nome:"Fonte Box",
+                imagem: fontBox ,
+            },
+            {
+                nome:"Placa Mãe",
+                imagem: placaMae,
+            },
+            {
+                nome:"Placa de Vídeo",
+                imagem: placaVideo,
+            },
+            {
+                nome:"Processador",
+                imagem: processador,
+            },
+            
         ]
 
+    },
+    
     }
-}
+
 
 export default carrinho;

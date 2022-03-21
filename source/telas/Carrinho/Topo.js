@@ -1,6 +1,5 @@
 import React from 'react';
-import { Image, Text, StyleSheet, Dimensions } from 'react-native';
-
+import { Image, StyleSheet, Dimensions } from 'react-native';
 import Texto from '../../components/Texto';
 
 

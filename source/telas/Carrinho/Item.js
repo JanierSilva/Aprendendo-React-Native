@@ -5,7 +5,6 @@ import { View, Image, StyleSheet } from 'react-native';
 
 export default function Item({item:{nome, imagem}}) {
     return <>
-
         <View style={estilos.item} key={nome}>
             <Texto style={estilos.nome}>{nome}</Texto>
             <Image style={estilos.imagem} source={imagem} />

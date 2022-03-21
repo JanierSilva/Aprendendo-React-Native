@@ -1,6 +1,5 @@
 import React from 'react';
-import { Image, Text, StyleSheet, Dimensions, View } from 'react-native';
-
+import { Image, StyleSheet, View } from 'react-native';
 import Texto from '../../components/Texto';
 
 export default function Detalhes({titulo, tituloProduto, descricao, logoVendedor, nomeVendedor, preco}) {
